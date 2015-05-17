@@ -1,20 +1,21 @@
 body {
-	color: blue;
+	background: #fafafa;
+	margin : 0;
 }
 
-.odd {
-	color: red;
+.header {
+	background: #1b39ab;
+	height: 70px;
 }
 
-.even {
-	color: green;
-}
-
-
-#header {
-	background: yellow;
-}
-
-#footer {
+.footer {
 	background: purple;
+}
+
+.wrapper {
+	height: 700px;
+	width: 960px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	margin: 10px auto;
 }
