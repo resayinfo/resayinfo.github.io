@@ -363,6 +363,8 @@ a {
 
 /* about.css */
 
+
+
 .about-banner {
 	height: 240px;
 	background-size: cover;
@@ -370,8 +372,24 @@ a {
 }
 
 
-.author-date {
+.about-info {
 	color: rgba(0,0,0,0.44);
 	line-height: 1;
 	margin-bottom: 40px;
 }
+
+
+.open-source {
+	margin-top: 50px;
+}
+
+.open-source img {
+	display:block;
+	width: 400px;
+	float: left;
+}
+
+.open-source .text {
+	
+}
+
