@@ -5,7 +5,7 @@
 }
 
 body {
-	min-width: 980px;
+	/*min-width: 980px;*/
 	background: #fafafa;
 	margin: 0;
 	font: 15px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
@@ -71,6 +71,19 @@ a {
 	margin-top: -50px;
 }
 
+@media (max-width: 970px) {
+	.banner-page {
+		height: 350px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.banner-page {
+		height: 250px;
+	}
+}
+
 .banner-page .container {
 	position: relative;
 	/*height: 100%;*/
@@ -118,16 +131,19 @@ a {
 .post {
 	float: left;
 	background: #fff;
-	width: 300px;
-	height: 320px;
-	margin-left: 10px;
-	margin-right: 10px;
+
+	width: 29.333%;
+	margin-left: 2%;
+	margin-right: 2%;
+
 	margin-bottom: 30px;
 	border-radius: 5px;
 	box-shadow: 0 2px 1px rgba(0,0,0,.08);
 	/* 专门为 date 设置 relative*/
 	position: relative;
 }
+
+
 
 .post .thumbnail-image {
 	display: block;
@@ -158,8 +174,8 @@ a {
 
 .post .thumbnail {
 	display: block;
-	width: 300px;
-	height: 200px;
+	width: 100%;
+	height: auto;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
