@@ -31,6 +31,12 @@ img {
 	width: 960px;
 }
 
+@media (max-width: 970px) {
+	.container {
+		width: 96%;
+	}
+}
+
 
 a {
 	text-decoration: none;
