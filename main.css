@@ -58,9 +58,7 @@ a {
 /* welcome.css */
 
 
-
 .banner-page {
-	background: url("./images/209871562.jpg");
 	height: 450px;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -69,7 +67,24 @@ a {
 
 .banner-page .container {
 	position: relative;
-	height: 100%;
+	/*height: 100%;*/
+}
+
+.read-btn {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	text-align: center;
+	padding: 7px 10px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+	background-color: #fff;
+}
+
+.read-btn:hover {
+	color: #000;
+	border-color: #f2f2f2;
+	background-color: #f2f2f2;
 }
 
 
@@ -307,7 +322,6 @@ a {
 }
 
 .blog-banner {
-	background: url('images/209872817.jpg');
 	height: 800px;
 	background-size: cover;
 	margin-top: -50px;
