@@ -361,5 +361,10 @@ a {
 }
 
 
+/* about.css */
 
-
+.about-banner {
+	height: 240px;
+	background-size: cover;
+	margin-top: -50px;
+}
