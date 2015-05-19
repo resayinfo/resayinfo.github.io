@@ -188,6 +188,13 @@ a {
 	border-top-right-radius: 5px;
 }
 
+@media (max-width: 500px) {
+	.post .thumbnail {
+		height: 200px;
+	}
+}
+
+
 .post .post-info {
 	margin: 24px;
 }
