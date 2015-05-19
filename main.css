@@ -368,3 +368,10 @@ a {
 	background-size: cover;
 	margin-top: -50px;
 }
+
+
+.author-date {
+	color: rgba(0,0,0,0.44);
+	line-height: 1;
+	margin-bottom: 40px;
+}
