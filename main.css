@@ -92,15 +92,26 @@ a {
 
 .tagline {
 	position: absolute;
-/*	margin-top: 350px; 350px
-	margin-bottom: 10px;*/
-	bottom: 20px;
-	right: 0;
+	margin-top: 350px;
+	margin-bottom: 10px;
 	color: #fff;
 	text-align: center;
-	padding: 7px 10px;
 	font-size: 40px;
 	font-weight: normal;
+}
+
+@media (max-width: 970px) {
+	.tagline {
+		margin-top: 250px;
+
+	}
+}
+
+@media (max-width: 500px) {
+	.tagline {
+		margin-top: 150px;
+		
+	}
 }
 
 .read-btn {
