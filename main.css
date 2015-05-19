@@ -183,7 +183,7 @@ a {
 .post .thumbnail {
 	display: block;
 	width: 100%;
-	height: auto;
+	height: 320px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
